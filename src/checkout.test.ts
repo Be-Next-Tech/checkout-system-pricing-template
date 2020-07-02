@@ -21,7 +21,7 @@ describe("Checkout Pricing", () => {
 
     it("When 2 Bs are added, it applies the correct discount", () => {
       const checkout = makeCheckout();
-      const expectedTotal = 90;
+      const expectedTotal = 45;
 
       checkout.add("B", "B");
 
